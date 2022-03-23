@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/luizhc/mailer/issues"
   },
-  "homepage": "https://github.com/luizhc/mailer#readme"
+  "homepage": "https://github.com/luizhc/mailer#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
