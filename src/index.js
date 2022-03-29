@@ -5,7 +5,6 @@ const app = express();
 app.use(express.json());
 
 const validateFields = (req, res, next) => {
-  console.log("next", next);
   const { to, subject, content } = req.body;
 
   if (!req.body || Object.keys(req.body).length === 0) {
